@@ -1,0 +1,216 @@
+<HTML>
+<HEAD>
+<TITLE>battalion</TITLE>
+</HEAD>
+<BODY BGCOLOR=#000000" TEXT="#FFFFFF" VLINK="#7777FF" LINK="#FF7777" ALINK="#77FF77">
+<center>
+<img width=524 height=143 src="moreBat.html/smalllogo.gif">
+<h1> <i>battalion</i> </h1>
+(c) 1994-1997 Andrew Johnson
+<p>
+monsters, explosions, and senseless
+destruction.
+<br>
+You've seen the movies, you know what to do.
+</center>
+<p>
+Version 1.2 (5/17/96)<br>
+<p>
+(thanks to Johan Hagman - Johan.Hagman@mailbox.swipnet.se -
+for his help with porting <i>battalion</i> to Solaris)
+<p>
+<hr>
+<p>
+battalion is a giant monster game where you are a giant monster
+fighting to survive against the military while causing
+as much destruction as you can.
+<p>
+<hr>
+<p>
+<h2> <img height=41 width=89 align=middle src="moreBat.html/fsmallleft.gif">
+legal stuff
+<img height=41 width=89 align=middle src="moreBat.html/fsmallright.gif"></h2>
+<p>
+<i>battalion</i> is Copyright (c) 1994-1997 by Andrew Johnson - All Rights Reserved
+<p>
+<i>battalion</i> is provided free of charge. There is no registration fee.
+<p>
+Permission to copy and distribute <i>battalion</i> in its entirety, for non-
+commercial purposes, is hereby granted without fee provided this
+copyright notice appears in all copies.
+<p>
+If you redistribute <i>battalion</i> then the ENTIRE contents of this distribution
+must be distributed.
+<p>
+Note that distributing <i>battalion</i> in with any product is considered to be
+a 'commercial purpose.'
+<p>
+This software may be modified for your own purposes, but modified
+versions may not be distributed without prior consent of the author.
+<p>
+This software is provided 'as-is' without any express or implied
+warrenty. In no event shall the author be held liable for any
+damages arising from the use or misuse of this software.
+<p>
+Should you want to do something with this software that is prohibited
+by the above copyright, please contact the author (email please) as he
+is very likely willing to sell out for the almighty dollar.
+<p>
+This distribution includes a version of <i>battalion</i> compiled with the Mesa 
+3-D graphics library which is (c) Brian Paul.
+<p>
+<HR>
+<p>
+<h2> <img height=41 width=89 align=middle src="moreBat.html/fsmallleft.gif">
+a bit of history
+<img height=41 width=89 align=middle src="moreBat.html/fsmallright.gif"></h2>
+
+<i>battalion</i> was originally writen in GL(r) on a Silicon Graphics Indy workstation.
+This version won 'best Indy game' in the 3rd Indizone Contest, and a
+slightly modified version of the game is currently shipping with all Silicon
+Graphics Indy and Indigo2 workstations.
+I then converted <i>battalion</i> to OpenGL(r) and ported it to other
+flavours of UNIX (SunOS, Solaris, Linux, HP-UX, AIX) and to the
+Macintosh. These versions are
+available from the battalion home page at the link given below.
+<p>
+<hr>
+<p>
+<h2> <img align=middle src="moreBat.html/fsmallleft.gif">
+see the help screens
+<img  align=middle src="moreBat.html/fsmallright.gif"></h2>
+
+The original help files for <i>battalion</i> were created in Showcase(r) which
+unfortunately only runs on Silicon Graphics workstations, so I
+have converted those screens to GIF files which are viewable from these pages.
+<p>
+<a href="moreBat.html/help.html"> The Help screens</a>
+<p>
+<hr>
+<p>
+<h2> <img height=41 width=89 align=middle src="moreBat.html/fsmallleft.gif">
+quick reference
+<img  align=middle src="moreBat.html/fsmallright.gif"></h2>
+<p>
+<br>
+<UL>
+<h4>STARTUP HINTS</h4>
+<pre>
+  The script "battalion" starts the game.
+
+  Press space to select your monster with keys 6 to 9 (Googelon, Techs, the
+  Vapour or Flutter), then press 1 to enter monster's view. Move using the
+  mouse or arrow keys, shoot with the left button or Ctrl and press Esc to
+  exit. The a and z keys tilt the monster's head.
+
+  The s key toggles sound effects and g toggles pointer grab, useful to keep
+  the pointer inside the window.
+
+  In demo mode (before and after a game), press h to view the on-screen
+  help and H to see the high scores.
+</pre>
+
+<br>
+<h4>COMMAND LINE OPTIONS</h4>
+<pre>
+  -a(lone)	    Fight alone.
+  -b(ackdrop)	    Hide the overlays.
+  -d(etail) n	    Set graphics level-of-detail to 0,1,2. The Mesa version
+		    defaults to 0 (low) and OpenGL version to 2 (high). The
+		    d key changes the detail level while the game is running.
+  -m(usic)	    Initially turn on the background music.
+  -s(ound)	    Initially turn on sound effects.
+  -lscores¹	    Use local high scores file (in /var/tmp), even if startup
+		    script has been set up to access a global high score file.
+  -mesa¹	    If OpenGL² is installed, use this option to tell the
+		    startup script to run the Mesa instead of OpenGL binary.
+  -help		    Shows game version and a list of command line options.
+</pre>
+
+<br>
+<h4>DEMO MODE COMMANDS</h4>
+<pre>
+   Space	    Selects your monster (keys 6,7,8,9).
+   h		    Displays the on-screen help.
+   H		    Displays the high scores.
+</pre>
+
+<br>
+<h4>PLAY MODE COMMANDS</h4>
+<pre>
+   Mouse/arrows	    Moves the monster.
+   Left button/Ctrl Shoot!
+   1, 2, 3	    Selects monster view / overview / army view. Use the
+		    i,j,k,l keys to rotate the battlefield in overview mode.
+   a, z		    Tilts monster's head.
+   d		    Steps through detail levels 0, 1, 2.
+   g		    Toggles pointer grabbing, which locks the mouse pointer
+		    into the battalion window. Gives you better control if
+		    you move using the mouse.
+   m		    Toggles background music.
+   p		    Pauses the game.
+   s		    Toggles sound.
+   ESC		    Exit.
+</pre>
+
+<br>
+<h4>ABOUT SOUND</h4>
+<pre>
+   The volume is initialized to a low level by audioplay, called from the
+   startup script. Change the level/comment out as appropriate.
+</pre>
+
+<br>
+<h4>ENVIRONMENT</h4>
+<pre>
+   BATTALIONSCOREDIR  Defines directory for high score file (default /var/tmp).
+		    This variable is already defined in the startup script, but
+		    the line is commented out.
+
+   BATTALIONSCOREUNIQUE  Setting this variable limits the number of high score
+		    entries per user to one (only the top entry). To enable
+		    this behavior, uncomment the line in the startup script
+		    that defines this variable.
+
+----
+¹) The -lscores and -mesa options are handled by the startup script.
+²) The Sun OpenGL 1.0 runtime packages must be installed in order to use the
+   battalion.opengl binary. OpenGL 1.0 supports only the Creator 3D framebuffer.
+</pre>
+</body>
+</pre>
+</UL>
+<hr>
+<p>
+<h2> <img height=41 width=89 align=middle src="moreBat.html/fsmallleft.gif">
+<i>battalion</i> links
+<img height=41 width=89 align=middle src="moreBat.html/fsmallright.gif"></h2>
+<p>
+The main resource for information on the game, FAQ list, and 
+the latest downloadable
+versions is 
+<a href="http://www.eecs.uic.edu/~ajohnson/AndyBattalion.html">
+the <i>battalion</i> Home Page </a>
+<p>
+<a href="http://www.eecs.uic.edu/~ajohnson"> Andy Johnson's Home Page </a>
+<p>
+<a href="http://www.sgi.com/Products/Indy/IndiZone/"> 3rd Indizone Contest Home Page</a>
+<br>
+<a href="http://www.ama.caltech.edu/users/mrm/godzilla/sources/jumppage.html"> Japanese Monster Movie Jump Page </a>
+<p>
+<hr>
+<p>
+<h2> <img height=41 width=89 align=middle src="moreBat.html/fsmallleft.gif">
+how to reach the author
+<img height=41 width=89 align=middle src="moreBat.html/fsmallright.gif"></h2>
+
+ajohnson@eecs.uic.edu <br>
+http://www.eecs.uic.edu/~ajohnson
+<p>
+Andrew Johnson <br>
+Electronic Visualization Laboratory (M/C 154) <br>
+University of Illinois at Chicago <br>
+851 South Morgan St. Room 1120 SEO <br>
+Chicago, IL 60607
+</BODY>
+</HTML>
