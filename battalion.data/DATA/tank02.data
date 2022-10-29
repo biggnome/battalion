@@ -1,0 +1,40 @@
+5	10	0
+2.5	10	0
+0	10	0
+-2.5	10	0
+-5	10	0
+
+5	20	0
+2.5	20	0
+0	20	0
+-2.5	20	0
+-5	20	0
+
+-10	9	1
+10	6	1
+-10	3	1
+10	5	1
+10	0   1
+
+-10	-6	4
+
+10	5	4
+
+-12	-10	2
+-9	-10	2
+12	-15	2
+9	-15	2
+
+-22  -12 3
+12   -11 5
+0	0	0
+
+line of all 0s ends the actual data
+
+tank		0
+maser tank	1
+helicopter	2
+mechagoogelon	3
+hunter		4
+hero		5
+airplane	6

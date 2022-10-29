@@ -1,0 +1,14 @@
+Placeholder
+(do not delete this file)
+
+If you are running _battalion_ on a machine
+other than a Silicon Graphics workstation
+then you can rename this file as:
+battalion.sho and save yourself a couple
+megabytes of disc space.
+
+_battalion_ needs a file named battalion.sho
+to figure out its directory structure but only
+Silicon Grpahics workstations have Showcase
+which is the program that battalion.sho (the
+graphical help) is viewable under.

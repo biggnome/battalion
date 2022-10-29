@@ -1,0 +1,163 @@
+.TH BATTALION 1 "February 1995"
+.SH NAME
+battalion - a giant monster game
+.SH SYNOPSIS
+.B battalion
+[
+.B -backdrop
+]
+[
+.B -detail
+]
+[
+.B -music
+]
+[
+.B -sound
+]
+.SH DESCRIPTION
+.I battalion
+is a giant monster game where you are a giant monster
+fighting to survive against the military while causing
+as much destruction as you can.
+.PP
+You can choose to be one of four possible monsters: Googelon,
+the Vapour, Techs, or Flutter:
+.PP
+.RS 5
+.IP Googelon 20
+An idealistic young monster from Osaka bay heads off to America
+to seek his fortune.
+
+.IP "The Vapour" 20
+A dangerous experiment on a college campus goes terribly wrong an the
+vapour escapes from a dorm room after a really excellent party.
+
+.IP Techs 20
+A communications satellite gains consciousness while broadcasting a
+Sam Peckinpah retrospective. After several more hours studying the
+films of Sergio Leone and John Woo, Techs heads down to Earth, ready
+to integrate into society.
+
+.IP Flutter 20
+A bug zapper is accidentally cross connected to the atomic pile of a 
+nuclear reactor. A thunderous ZAP! The sky is filled with blue light...and something else.
+.RS -5
+.PP
+Your sudden arrival caught the military off guard, but they're
+on their way.
+The military is equipped with Tanks, Helicopters, Bombers,
+and Maser-Tanks. More powerful weapons are currently under
+development and will be deployed when available. And if the
+situation looks hopeless...
+.PP
+Your current health is displayed in a coloured bar at the top left
+corner of the screen. You lose energy when you move, activate your
+weapon, or get hit. You slowly regenerate energy throughout the game.
+When your energy runs out, you die and the game is over.
+.PP
+You get points for destroying military vehicles and buildings (but not
+trees.)
+.SH OPTIONS
+.IP  -backdrop 20
+Run without the textual overlays, making
+.I battalion
+more suitable for use as a backdrop or a screensaver.
+.PP
+.IP -detail 20
+Start the game with detail turned on.
+.PP
+.IP -music 20
+Start the game with music turned on.
+.PP
+.IP -sound 20
+Start the game with sound turned on.
+.SH DEMO MODE
+.I Battalion
+starts out in demo mode, cycling through the monsters and
+unleashing them upon a small unsuspecting town. The monsters aren't
+very bright but demo mode will give you an idea what you are up
+against. When you want to get in on the fun, press the spacebar.
+You can then choose your monster and start senselessly destroying things.
+.SH CONTROLS
+The 1, 2, and 3 keys control your view:
+.RS 5
+.TP 20
+.SM 1
+Monster view. You see the battlefield from the monster's point of view.
+.TP 20
+.SM 2
+Overview. You see an overview of the battlefield. The i,j,k,l keys
+rotate the battlefield in this view.
+.TP 20
+.SM 3
+Army view. You see the battlefield from one of the military vehicles
+attacking you.
+.RS -5
+.PP
+The mouse and the arrow keys move the monster:
+.RS 5
+.TP 30
+.SM Mouse forward/up arrow
+moves monster forwards
+.TP 30
+.SM Mouse backward/down arrow
+moves monster backwards
+.TP 30
+.SM Mouse right/right arrow
+turns monster to its right
+.TP 30
+.SM Mouse forward/left arrow
+turns monster to its left
+.RS -5
+.PP
+The left mouse button and the 'ctrl' keys on the keyboard activate the
+monster's weapon.
+.PP
+The 'a' and 'z' keys on the keyboard tilt the monster's head up and down.
+.RS 5
+.TP 20
+.SM 'a' key
+tilts the monster's head up
+.TP 20
+.SM 'z' key
+tilts the monster's head down
+.RS -5
+.PP
+You can resize/iconify the
+.I battalion
+window as you like. The game is temporarily halted while it is iconified.
+.PP
+The d key turns detail on/off. With detail on the game will look better
+(with fog, transparent explosions, and a bit of texture mapping) but will
+play slower.
+.PP
+The h key activates displays the showcase help file (which contains
+the same information as this man page, but with lots of pretty pictures.)
+The game is temporarily halted while you are viewing help.
+If you are in 3D mode and activate help, you will be taken into 2D mode
+before help is displayed. 
+.PP
+The m key turns the background music on/off. Music will slow the game down
+slightly; and I wouldn't recommend
+running any other sound-intensive programs at the same time as
+.I battalion.
+.PP
+The p key turns pause on/off. Pause freezes the action (you can't move,
+and neither can the army) but the other controls (123, ijkl, dhmpsv)
+are still active.
+.PP
+The s key turns the sound on/off. Sound will slow the game down slightly;
+and I wouldn't recommend running any other sound-intensive programs at
+the same time as
+.I battalion.
+.PP
+The v key turns 3D video on/off. If you have a pair of 3D glasses
+attached to your computer and a capable monitor you will see the
+game in 3D. The size of the 3D area will match the size of your current
+2D window, allowing you to speed up the 3D game by shrinking the size
+of your window before invoking 3D video.
+.SH DISCLAIMER
+No giant monsters were harmed during the development of this game.
+.SH AUTHOR
+Andrew Johnson

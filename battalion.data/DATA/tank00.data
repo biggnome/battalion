@@ -1,0 +1,11 @@
+5.4 -3  5
+0	0	0
+
+line of all 0s ends the actual data
+tank		0
+maser tank	1
+helicopter	2
+mechagoogelon	3
+hunter		4
+hero		5
+airplane	6

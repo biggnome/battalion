@@ -1,0 +1,13 @@
+3
+Kasperville
+Andyville
+Fuenteclara
+
+
+
+
+this file stores the number of levels to play and the names of the
+cities.
+
+First line: number of levels
+Next:       names of cities, each name in a new line
